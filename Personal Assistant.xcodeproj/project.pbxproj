@@ -15,6 +15,7 @@
 		972A8DDE25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DDC25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld */; };
 		972A8DE925AFC13D009CDCAF /* Personal_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DE825AFC13D009CDCAF /* Personal_AssistantTests.swift */; };
 		972A8DF425AFC13D009CDCAF /* Personal_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DF325AFC13D009CDCAF /* Personal_AssistantUITests.swift */; };
+		972A8E1125AFC4FD009CDCAF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 972A8E1025AFC4FD009CDCAF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		972A8DEF25AFC13D009CDCAF /* Personal AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		972A8DF325AFC13D009CDCAF /* Personal_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_AssistantUITests.swift; sourceTree = "<group>"; };
 		972A8DF525AFC13D009CDCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972A8E1025AFC4FD009CDCAF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		972A8DC525AFC138009CDCAF = {
 			isa = PBXGroup;
 			children = (
+				972A8E1025AFC4FD009CDCAF /* .gitignore */,
 				972A8DD025AFC138009CDCAF /* Personal Assistant */,
 				972A8DE725AFC13D009CDCAF /* Personal AssistantTests */,
 				972A8DF225AFC13D009CDCAF /* Personal AssistantUITests */,
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				972A8DD925AFC13D009CDCAF /* Preview Assets.xcassets in Resources */,
+				972A8E1125AFC4FD009CDCAF /* .gitignore in Resources */,
 				972A8DD625AFC13D009CDCAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
