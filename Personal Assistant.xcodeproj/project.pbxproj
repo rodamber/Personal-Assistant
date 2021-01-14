@@ -102,13 +102,13 @@
 		972A8DD025AFC138009CDCAF /* Personal Assistant */ = {
 			isa = PBXGroup;
 			children = (
-				972A8DD125AFC138009CDCAF /* Personal_AssistantApp.swift */,
-				972A8DD325AFC138009CDCAF /* ContentView.swift */,
-				972A8DD525AFC13D009CDCAF /* Assets.xcassets */,
-				972A8DDA25AFC13D009CDCAF /* Persistence.swift */,
 				972A8DDF25AFC13D009CDCAF /* Info.plist */,
-				972A8DDC25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld */,
+				972A8DD125AFC138009CDCAF /* Personal_AssistantApp.swift */,
+				972A8DD525AFC13D009CDCAF /* Assets.xcassets */,
+				972A8E1725AFCA8A009CDCAF /* Data */,
+				972A8E1625AFCA82009CDCAF /* Model */,
 				972A8DD725AFC13D009CDCAF /* Preview Content */,
+				972A8E1525AFCA16009CDCAF /* Views */,
 			);
 			path = "Personal Assistant";
 			sourceTree = "<group>";
@@ -137,6 +137,30 @@
 				972A8DF525AFC13D009CDCAF /* Info.plist */,
 			);
 			path = "Personal AssistantUITests";
+			sourceTree = "<group>";
+		};
+		972A8E1525AFCA16009CDCAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				972A8DD325AFC138009CDCAF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		972A8E1625AFCA82009CDCAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		972A8E1725AFCA8A009CDCAF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				972A8DDA25AFC13D009CDCAF /* Persistence.swift */,
+				972A8DDC25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
