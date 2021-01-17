@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		972A8DD225AFC138009CDCAF /* Personal_AssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DD125AFC138009CDCAF /* Personal_AssistantApp.swift */; };
-		972A8DD425AFC138009CDCAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DD325AFC138009CDCAF /* ContentView.swift */; };
+		972A8DD225AFC138009CDCAF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DD125AFC138009CDCAF /* Main.swift */; };
+		972A8DD425AFC138009CDCAF /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DD325AFC138009CDCAF /* ReminderListView.swift */; };
 		972A8DD625AFC13D009CDCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972A8DD525AFC13D009CDCAF /* Assets.xcassets */; };
 		972A8DD925AFC13D009CDCAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972A8DD825AFC13D009CDCAF /* Preview Assets.xcassets */; };
 		972A8DDB25AFC13D009CDCAF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DDA25AFC13D009CDCAF /* Persistence.swift */; };
@@ -16,6 +16,12 @@
 		972A8DE925AFC13D009CDCAF /* Personal_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DE825AFC13D009CDCAF /* Personal_AssistantTests.swift */; };
 		972A8DF425AFC13D009CDCAF /* Personal_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A8DF325AFC13D009CDCAF /* Personal_AssistantUITests.swift */; };
 		972A8E1125AFC4FD009CDCAF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 972A8E1025AFC4FD009CDCAF /* .gitignore */; };
+		975CC85A25AFDA5A00507326 /* ReminderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975CC85925AFDA5A00507326 /* ReminderDetailsView.swift */; };
+		9773E93E25B1086800DACC1A /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773E93D25B1086800DACC1A /* ReminderRowView.swift */; };
+		978990E025B2748300322317 /* ToggleableDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978990DF25B2748300322317 /* ToggleableDatePicker.swift */; };
+		978990E825B2760D00322317 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978990E725B2760D00322317 /* Utilities.swift */; };
+		978990F625B285BC00322317 /* Checkmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978990F525B285BC00322317 /* Checkmark.swift */; };
+		97B97DF925B4288500F14CD7 /* ClockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B97DF825B4288500F14CD7 /* ClockIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +43,8 @@
 
 /* Begin PBXFileReference section */
 		972A8DCE25AFC138009CDCAF /* Personal Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		972A8DD125AFC138009CDCAF /* Personal_AssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_AssistantApp.swift; sourceTree = "<group>"; };
-		972A8DD325AFC138009CDCAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		972A8DD125AFC138009CDCAF /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		972A8DD325AFC138009CDCAF /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 		972A8DD525AFC13D009CDCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972A8DD825AFC13D009CDCAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		972A8DDA25AFC13D009CDCAF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		972A8DF325AFC13D009CDCAF /* Personal_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_AssistantUITests.swift; sourceTree = "<group>"; };
 		972A8DF525AFC13D009CDCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972A8E1025AFC4FD009CDCAF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		975CC85925AFDA5A00507326 /* ReminderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsView.swift; sourceTree = "<group>"; };
+		9773E93D25B1086800DACC1A /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
+		978990DF25B2748300322317 /* ToggleableDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleableDatePicker.swift; sourceTree = "<group>"; };
+		978990E725B2760D00322317 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		978990F525B285BC00322317 /* Checkmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkmark.swift; sourceTree = "<group>"; };
+		97B97DF825B4288500F14CD7 /* ClockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				972A8DDF25AFC13D009CDCAF /* Info.plist */,
-				972A8DD125AFC138009CDCAF /* Personal_AssistantApp.swift */,
 				972A8DD525AFC13D009CDCAF /* Assets.xcassets */,
-				972A8E1725AFCA8A009CDCAF /* Data */,
-				972A8E1625AFCA82009CDCAF /* Model */,
+				972A8E1725AFCA8A009CDCAF /* CoreData */,
 				972A8DD725AFC13D009CDCAF /* Preview Content */,
-				972A8E1525AFCA16009CDCAF /* Views */,
+				972A8E1525AFCA16009CDCAF /* Components */,
+				97706AAA25B4040000E1D429 /* Reminders */,
+				972A8DD125AFC138009CDCAF /* Main.swift */,
+				978990E725B2760D00322317 /* Utilities.swift */,
 			);
 			path = "Personal Assistant";
 			sourceTree = "<group>";
@@ -139,28 +152,33 @@
 			path = "Personal AssistantUITests";
 			sourceTree = "<group>";
 		};
-		972A8E1525AFCA16009CDCAF /* Views */ = {
+		972A8E1525AFCA16009CDCAF /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				972A8DD325AFC138009CDCAF /* ContentView.swift */,
+				978990DF25B2748300322317 /* ToggleableDatePicker.swift */,
+				978990F525B285BC00322317 /* Checkmark.swift */,
+				97B97DF825B4288500F14CD7 /* ClockIcon.swift */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
-		972A8E1625AFCA82009CDCAF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		972A8E1725AFCA8A009CDCAF /* Data */ = {
+		972A8E1725AFCA8A009CDCAF /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				972A8DDA25AFC13D009CDCAF /* Persistence.swift */,
 				972A8DDC25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld */,
 			);
-			path = Data;
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		97706AAA25B4040000E1D429 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				975CC85925AFDA5A00507326 /* ReminderDetailsView.swift */,
+				972A8DD325AFC138009CDCAF /* ReminderListView.swift */,
+				9773E93D25B1086800DACC1A /* ReminderRowView.swift */,
+			);
+			path = Reminders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,10 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975CC85A25AFDA5A00507326 /* ReminderDetailsView.swift in Sources */,
+				978990F625B285BC00322317 /* Checkmark.swift in Sources */,
+				978990E025B2748300322317 /* ToggleableDatePicker.swift in Sources */,
 				972A8DDE25AFC13D009CDCAF /* Personal_Assistant.xcdatamodeld in Sources */,
+				978990E825B2760D00322317 /* Utilities.swift in Sources */,
+				9773E93E25B1086800DACC1A /* ReminderRowView.swift in Sources */,
 				972A8DDB25AFC13D009CDCAF /* Persistence.swift in Sources */,
-				972A8DD425AFC138009CDCAF /* ContentView.swift in Sources */,
-				972A8DD225AFC138009CDCAF /* Personal_AssistantApp.swift in Sources */,
+				97B97DF925B4288500F14CD7 /* ClockIcon.swift in Sources */,
+				972A8DD425AFC138009CDCAF /* ReminderListView.swift in Sources */,
+				972A8DD225AFC138009CDCAF /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
